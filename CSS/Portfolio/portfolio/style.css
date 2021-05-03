@@ -1,0 +1,153 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+   
+}
+.background{
+    
+    width:1000px;
+    height: fit-content;
+    background-color: #6F5964;
+    margin: 0px auto ;
+    background-image: radial-gradient(#776870,#3d2a37);
+    
+    
+   }
+
+   .header{
+       width: auto;
+       background-color: #F6F6F6;
+       height: 50px;
+       font-family: cursive;
+
+
+
+       
+   }
+
+
+   
+   
+
+   ul{
+    list-style: none;
+justify-content: space-evenly;
+display: flex;
+width: 90%;
+
+   }
+
+   
+
+    .girl{
+        /* margin: 10px; */
+        display: inline-block;
+
+
+        border: 4px solid #93919C;
+   }
+
+   .about{
+       width: 522px;
+       height: 300px;
+       background-color: white;
+       /* margin: 10px; */
+       display: inline-block;
+       vertical-align: top;
+       margin-left: 20px;
+       background-image: linear-gradient(to bottom right,#f3f0f3,#d6b8d4);
+       
+
+   }
+
+   .body{
+       padding: 20px;
+   }
+
+   .head1{
+       width: auto;
+       background-color:#93919C;
+       background-image: linear-gradient(#d7d5db,#545163,#d6d3e0);
+       height: 50px;
+       color: bisque;
+   }
+
+   .project{
+       display: flex;
+       justify-content: space-between;
+       margin-top: 20px;
+
+   }
+
+   .lamode{
+       width: 290px;
+       height: fit-content;
+       /* max-width: 250px; */
+       background-color: rgb(253, 251, 251);
+       background-image: linear-gradient(to bottom right,#f3f0f3,#d6b8d4);
+       /* margin: 10px; */
+       /* flex:1; */
+       
+
+   }
+   .headla2{
+       width: auto;
+       height: 50px;
+       background-color: #93919C;
+       background-image: linear-gradient(#d7d5db,#545163,#d6d3e0);
+       color: white;
+       
+       
+   }
+
+   .head2la{
+       width: fit-content;
+       height: fit-content;
+       background-color:rgb(10, 63, 10) ;
+       color: cornsilk;
+       margin-bottom: 15px;
+       padding: 15px;
+       text-align: center;
+       margin-left: 80px;
+
+
+   }
+
+   /* .small{
+       word-wrap: break-word ;
+       width: 260px;
+   } */
+
+   .headla{
+       width: auto;
+       height: 50px;
+       background-color: #93919C;
+       color: wheat;
+       background-image: linear-gradient(#d7d5db,#545163,#d6d3e0);
+   }
+
+  
+       
+   
+
+   .foteer{
+    width: 1000px;
+    background-color: rgb(191, 195, 199);
+    /* height: fit-content; */
+    margin: 0px auto ;
+    /* padding-left: 40%; */
+    text-align: center;
+    align-items: center;
+    /* display: flex; */
+    
+   }
+   
+   .foteer2{
+       display: inline-block;
+   }
+
+ 
+
+       
+   

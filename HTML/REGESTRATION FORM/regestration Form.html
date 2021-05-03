@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+  <style>
+      * {
+      box-sizing: border-box;
+    }
+
+    input[type=text], input[type=password] {
+      padding: 15px;
+      margin: 10px 0 10px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+
+
+  </style>
+    <body>
+    
+    <form action="/action_page.php">
+      <div class="container">
+        <h1>My Regesration form</h1>
+      
+        <hr>
+      
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+        <br>
+        
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+        <br>
+
+        
+
+        <label for="email">email:</label>
+        <input type="text" id="email" name="emails">
+        <br>
+        
+    
+        <label for="password">password:</label>
+        <input type="text" id="password" name="password">
+        <br>
+        
+    
+        <label for="pw-confirm"> pw-confirm</label>
+        <input type="password" id="pw-confirm" name="pw-confirm">
+        <br>
+
+
+        <label for="birthday"></label>
+        <label for="start">birthday:</label>
+        <input type="date" id="start" name="trip-start"
+         value="yyyy-dd-mm"
+         min="yyyy-dd-mm" max="yyyy-dd-mm">
+
+        <input type="text" id="birthday" name="birthday">
+        <br>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="decline">other</label>
+        <input type="radio" id="decline" name="gender" valuecopy="decline">
+        <br>
+
+        <hr>
+        <p>A short describtion about yourself</a>.</p>
+        <textarea name ="describtion"></textarea>
+        <br>
+    
+        <p>Select your favorite language:</p>
+    
+    <select name="favorite language">
+        <option value="java">java</option>
+        <option value="mern">mern</option>
+        
+    </select>
+    <br>
+        <br>
+        <button type="submit" class="registerbtn">submit</button>
+      </div>
+      
+     
+    </form>
+    
+    </body>
+    </html>
+    

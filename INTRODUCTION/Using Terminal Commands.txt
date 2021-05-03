@@ -1,0 +1,72 @@
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop
+$ mkdir test
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop
+$ cd test
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/test
+$ touch index.html
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/test
+$ touch style.css commands.txt
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/test
+$ cp index.html index_2.html
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/test
+$ cd ..
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop
+$ mkdir destination
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop
+$ cd test
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/test
+$ mv index_2.html ../index_2.html
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/test
+$ mv index_2.html ../destination
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/test
+$ rm style.css
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/test
+$ cd ../destination
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/destination
+$ ls
+index_2.html
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/destination
+$ rm -rf destination
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/destination
+$ cd ,,
+bash: cd: ,,: No such file or directory
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/destination
+$ cd..
+bash: cd..: command not found
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/destination
+$ cd..
+bash: cd..: command not found
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop/destination
+$ cd ..
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop
+$ rm -rf destintatioin
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop
+$ rm destination
+rm: cannot remove 'destination': Is a directory
+
+mr.dawani@DESKTOP-CE89GT5 MINGW64 ~/Desktop
+$ rm -r destination
